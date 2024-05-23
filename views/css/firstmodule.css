@@ -1,0 +1,38 @@
+#firstmodule-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+#test {
+    height: auto;
+    width: 40%;
+    padding: 5px;
+}
+
+#test ul {
+    text-align: left;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+#test ul li {
+    padding: 2px;
+}
+
+#test ul li:nth-child(odd) {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.header {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
