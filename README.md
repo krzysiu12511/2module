@@ -1,10 +1,12 @@
 # FirstModule
 
 ## Opis
-FirstModule to moduł dla PrestaShop 1.7, który umożliwia wyświetlanie spersonalizowanego bloku HTML na głównej stronie sklepu. Moduł oferuje łatwą w obsłudze konfigurację poprzez panel administracyjny, pozwalając na edycję treści bloku za pomocą wbudowanego edytora WYSIWYG.
+FirstModule to moduł dla PrestaShop 1.7, który asynchronicznie wczytuje dane na główną stronę sklepu, tj. zdjęcia, nazwę i cenę produktów, oraz wyświetla je w formie siatki (grid). Dodatkowo, umożliwia wyświetlanie spersonalizowanego bloku HTML. Moduł oferuje łatwą w obsłudze konfigurację poprzez panel administracyjny, pozwalając na edycję treści bloku za pomocą wbudowanego edytora WYSIWYG.
 
 ## Funkcjonalności
-- Wyświetlanie bloku HTML na głównej stronie
+- Asynchroniczne wczytywanie danych produktów (zdjęcia, nazwa, cena) na główną stronę sklepu
+- Wyświetlanie produktów w siatce (grid)
+- Wyświetlanie spersonalizowanego bloku HTML na głównej stronie
 - Konfiguracja treści bloku przez panel administracyjny z użyciem edytora WYSIWYG
 - Możliwość dodawania stylów CSS do własnych treści
 
